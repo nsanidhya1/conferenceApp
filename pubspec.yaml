@@ -1,0 +1,62 @@
+name: jiit_icsc_2025
+description: A Flutter app for the International Conference 2023.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"
+  adaptive_icon_background: "#ffffff"  # (Optional)
+  web:
+    generate: true
+    windows:
+      generate: true
+    macos:
+      generate: true
+    name: "ICSC 2025"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.0.9
+  carousel_slider: ^4.2.1 # Ensure this is the latest version available
+  flutter_launcher_icons: ^0.14.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  url_launcher: ^6.0.20 # Check for the latest version
+
+
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/newimg.png
+    - assets/img.png
+    - assets/logo.png
+    - assets/img_1.png
+    - assets/qrc.png
+    - assets/deet.png
+    - assets/confimg.jpeg
+    - assets/confimg1.jpeg
+    - assets/PXL_20231221_063223135.jpg
+    - assets/PXL_20231221_063610562.jpg
+    - assets/img_2.png
+    - assets/img_3.png
+    - assets/spon1.png
+    - assets/spon2.png
+    - assets/img_5.png
+    - assets/img_6.png
+    - assets/img_7.png
+    - assets/img_8.png
+    - assets/img_9.png
+    - assets/img_10.png
+
+
